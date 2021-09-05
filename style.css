@@ -28,8 +28,7 @@
   .btn-item {
     margin-left: 15px;
   }
- 
-  
+
   .photo {
     width: 30%;
     height: 175px;
@@ -37,24 +36,27 @@
     border: 0.25rem solid black;
     border-radius: 10px;
   }
+
   .menu-items {
     display: flex;
     margin: 20px 0;
   }
+
   .menu-info {
     margin-left: 20px;
     width: 100%;
   }
+
   .menu-title {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
   }
-  
+
   h4 {
     color: #e00a00;
   }
-  
+
   .menu-text {
     padding-top: 20px;
   }

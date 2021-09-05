@@ -90,7 +90,6 @@ categories.unshift("All")
 
 window.onload = () => {
   menu.forEach(element => {
-    console.log(createMenuElement(element))
     sectionCenter.append(createMenuElement(element))
   });
   getButtons(categories)
@@ -125,7 +124,6 @@ function createMenuElement(categoryItem) {
 }
 
 function getItems(e) {
-  console.log(e.target.outerText)
   if (e.target.outerText == "All") {
     sectionCenter.innerHTML = ""
     menu.forEach(element => {
@@ -140,6 +138,3 @@ function getItems(e) {
     });
   }
 }
-
-
-
